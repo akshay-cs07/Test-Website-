@@ -136,6 +136,7 @@ export default function AboutSection({ intro, stats, socialLinks, tracking }: Ab
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap justify-start gap-4"
           >
+            {Boolean(intro.cta?.resumeUrl?.trim()) && (
             <a
               href={intro.cta.resumeUrl}
               download={intro.cta.resumeFileName}
@@ -145,6 +146,7 @@ export default function AboutSection({ intro, stats, socialLinks, tracking }: Ab
               <FiDownload className="w-4 h-4" />
               {intro.cta.buttonText}
             </a>
+            )}
             <div className="flex gap-3">
               {socialLinks.map((link: { icon: string; url: string }, index: number) => {
                 const IconComponent = iconComponents[link.icon];

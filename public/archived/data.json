@@ -23,42 +23,6 @@
                 "navEligibleForMobile": true
             },
             {
-                "label": "Publications",
-                "section": "publications",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
-                "label": "Experience",
-                "section": "experience",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
-                "label": "Projects",
-                "section": "portfolio",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
-                "label": "Education",
-                "section": "education",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
-                "label": "Achievements",
-                "section": "achievements",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
-                "label": "Testimonials",
-                "section": "testimonials",
-                "navEligibleForDesktop": true,
-                "navEligibleForMobile": true
-            },
-            {
                 "label": "Contact",
                 "section": "contact",
                 "navEligibleForDesktop": true,
@@ -109,38 +73,21 @@
         "enabled": true,
         "tagline": "< Hello, I'm Akshay C S />",
         "professional": "{Full-Stack Developer}",
-        "description": "I'm a passionate <b>Full-Stack Developer</b> with expertise in building modern web applications using <b>React, Node.js, and cloud technologies</b>. I believe in writing <b>clean, maintainable code</b> and creating <b>scalable architectures</b> that stand the test of time.\n\nMy journey includes working with <b>startups and enterprises</b>, where I've delivered <b>end-to-end solutions</b> from concept to deployment. I specialize in <b>microservices architecture, real-time applications, and AI integration</b>.\n\nBeyond coding, I actively contribute to <b>open-source projects</b> and write technical articles on <b>system design, best practices, and emerging technologies</b>. I'm always excited to tackle <b>complex challenges</b> and collaborate on <b>innovative projects</b> that make an impact.",
+        "description": "",
         "avatar": {
             "enabled": false,
             "image": "/akshay-cs-avatar.gif",
             "alt": "Akshay C S 3D Avatar"
         },
         "cta": {
-            "resumeUrl": "https://github.com/akshay-cs07/storage/raw/main/Akshay_CS_Resume.pdf",
+            "resumeUrl": "",
             "buttonText": "Download Resume",
-            "resumeFileName": "Akshay_CS_Resume.pdf"
+            "resumeFileName": ""
         }
     },
     "stats": {
-        "enabled": true,
-        "items": [
-            {
-                "value": "5+",
-                "label": "Years Experience"
-            },
-            {
-                "value": "50+",
-                "label": "Projects Delivered"
-            },
-            {
-                "value": "10+",
-                "label": "Happy Clients"
-            },
-            {
-                "value": "3",
-                "label": "Cloud Certifications"
-            }
-        ]
+        "enabled": false,
+        "items": []
     },
     "skills": {
         "index": 2,
@@ -155,11 +102,7 @@
                     "React",
                     "Next.js",
                     "TypeScript",
-                    "Tailwind CSS",
-                    "Redux",
-                    "GraphQL",
-                    "Webpack",
-                    "Jest"
+                    "Tailwind CSS"
                 ]
             },
             {
@@ -167,13 +110,8 @@
                 "highlight": "Backend",
                 "items": [
                     "Node.js",
-                    "Python",
                     "Express.js",
-                    "Django",
-                    "REST APIs",
-                    "Microservices",
-                    "Docker",
-                    "Kubernetes"
+                    "REST APIs"
                 ]
             },
             {
@@ -181,11 +119,7 @@
                 "highlight": "Database",
                 "items": [
                     "MongoDB",
-                    "PostgreSQL",
-                    "Redis",
-                    "MySQL",
-                    "Firebase",
-                    "Elasticsearch"
+                    "PostgreSQL"
                 ]
             },
             {
@@ -193,274 +127,56 @@
                 "highlight": "Cloud & DevOps",
                 "items": [
                     "AWS",
-                    "Azure",
                     "GCP",
-                    "CI/CD",
-                    "Terraform",
-                    "Jenkins",
-                    "Nginx"
-                ]
-            },
-            {
-                "name": "AI/ML",
-                "highlight": "AI/ML",
-                "items": [
-                    "TensorFlow",
-                    "PyTorch",
-                    "OpenAI API",
-                    "LangChain",
-                    "Computer Vision",
-                    "NLP"
+                    "CI/CD"
                 ]
             }
         ]
     },
     "publications": {
         "index": 3,
-        "enabled": true,
+        "enabled": false,
         "title": "My Publications",
         "highlight": "Publications",
         "displayLimit": 3,
         "showMoreText": "View All Articles",
-        "items": [
-            {
-                "title": "React Performance Optimization Techniques",
-                "description": "Advanced techniques for optimizing React applications including code splitting, lazy loading, and memoization patterns.",
-                "url": "/react-performance-optimization",
-                "platform": "Dev.to",
-                "date": "2023-11-20",
-                "type": "Tutorial",
-                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--ABCD1234--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xyz123.png",
-                "tags": [
-                    "React",
-                    "Performance",
-                    "Frontend"
-                ]
-            }
-        ]
+        "items": []
     },
     "experience": {
         "index": 4,
-        "enabled": true,
+        "enabled": false,
         "title": "Work Experience",
         "highlight": "Experience",
-        "items": [
-            {
-                "id": 1,
-                "title": "Senior Full-Stack Developer",
-                "period": "2022 - Present",
-                "company": "Tech Innovations Inc.",
-                "location": "San Francisco, CA",
-                "description": [
-                    "Led development of a SaaS platform serving 50K+ users using React, Node.js, and microservices architecture",
-                    "Implemented real-time features with WebSockets, reducing latency by 70%",
-                    "Mentored 5 junior developers and established coding standards",
-                    "Reduced deployment time by 60% through CI/CD pipeline optimization"
-                ],
-                "tags": [
-                    "React",
-                    "Node.js",
-                    "AWS",
-                    "Microservices",
-                    "Team Leadership"
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Full-Stack Developer",
-                "period": "2020 - 2022",
-                "company": "Digital Solutions Ltd.",
-                "location": "New York, NY",
-                "description": [
-                    "Developed and maintained multiple client projects using MERN stack",
-                    "Built RESTful APIs handling 1M+ requests daily",
-                    "Integrated third-party services and payment gateways",
-                    "Improved application performance by 40% through optimization"
-                ],
-                "tags": [
-                    "MongoDB",
-                    "Express",
-                    "React",
-                    "REST APIs",
-                    "Payment Integration"
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Junior Developer",
-                "period": "2019 - 2020",
-                "company": "Startup Ventures",
-                "location": "Austin, TX",
-                "description": [
-                    "Assisted in developing web applications using JavaScript and Python",
-                    "Participated in Agile sprints and code reviews",
-                    "Built responsive UI components and backend services",
-                    "Contributed to open-source projects"
-                ],
-                "tags": [
-                    "JavaScript",
-                    "Python",
-                    "Agile",
-                    "UI Development"
-                ]
-            }
-        ]
+        "items": []
     },
     "education": {
         "index": 5,
-        "enabled": true,
+        "enabled": false,
         "title": "Education",
         "highlight": "Education",
-        "items": [
-            {
-                "degree": "Master of Science",
-                "stream": "Computer Science",
-                "institute": "Stanford University",
-                "result": "GPA 3.9/4.0",
-                "duration": "2017 - 2019",
-                "location": "Stanford, CA"
-            },
-            {
-                "degree": "Bachelor of Technology",
-                "stream": "Information Technology",
-                "institute": "MIT",
-                "result": "GPA 3.8/4.0",
-                "duration": "2013 - 2017",
-                "location": "Cambridge, MA"
-            }
-        ]
+        "items": []
     },
     "projects": {
         "index": 6,
-        "enabled": true,
+        "enabled": false,
         "title": "Featured Projects",
         "highlight": "Projects",
-        "items": [
-            {
-                "title": "E-Commerce Platform",
-                "description": "Built a full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard. Supports 10K+ concurrent users.",
-                "githubLink": "https://github.com/akshay-cs07/ecommerce-platform",
-                "liveLink": "",
-                "technologies": [
-                    "React",
-                    "Node.js",
-                    "MongoDB",
-                    "Stripe",
-                    "Redis"
-                ],
-                "type": "Full-Stack E-Commerce Solution"
-            },
-            {
-                "title": "AI Content Generator",
-                "description": "AI-powered content generation tool using GPT-4 and custom ML models. Features include plagiarism check, SEO optimization, and multi-language support.",
-                "githubLink": "https://github.com/akshay-cs07/ai-content-generator",
-                "liveLink": "",
-                "technologies": [
-                    "Python",
-                    "FastAPI",
-                    "React",
-                    "OpenAI",
-                    "PostgreSQL"
-                ],
-                "type": "AI/ML Application"
-            },
-            {
-                "title": "Real-time Collaboration Tool",
-                "description": "Google Docs-like real-time collaboration tool with live editing, comments, and version history. Built with operational transformation algorithm.",
-                "githubLink": "https://github.com/akshay-cs07/collab-tool",
-                "liveLink": "",
-                "technologies": [
-                    "Next.js",
-                    "Socket.io",
-                    "PostgreSQL",
-                    "Docker"
-                ],
-                "type": "Real-time Web Application"
-            },
-            {
-                "title": "Health Monitoring System",
-                "description": "IoT-based health monitoring system with wearable integration, real-time alerts, and doctor dashboard. HIPAA compliant.",
-                "githubLink": "https://github.com/akshay-cs07/health-monitor",
-                "technologies": [
-                    "Python",
-                    "Django",
-                    "React Native",
-                    "AWS IoT",
-                    "MongoDB"
-                ],
-                "type": "IoT Healthcare Solution"
-            }
-        ]
+        "items": []
     },
     "achievements": {
         "index": 7,
-        "enabled": true,
+        "enabled": false,
         "title": "Achievements & Certifications",
         "highlight": "Achievements",
-        "description": [
-            "Awarded 'Developer of the Year' at Tech Innovations Inc. for outstanding contributions to platform architecture",
-            "Open-source contributor to major projects including React, Node.js, and TensorFlow",
-            "Speaker at international conferences including React Summit and AWS re:Invent",
-            "Maintained 100% on-time project delivery for 3 consecutive years"
-        ],
-        "certifications": [
-            {
-                "name": "AWS Solutions Architect Professional",
-                "issuer": "Amazon Web Services",
-                "icon": "/aws-cert.jpg",
-                "url": "https://www.credly.com/badges/abc123"
-            },
-            {
-                "name": "Google Cloud Professional Data Engineer",
-                "issuer": "Google Cloud",
-                "icon": "/gcp-cert.jpg",
-                "url": "https://www.credly.com/badges/def456"
-            },
-            {
-                "name": "React Advanced Certification",
-                "issuer": "Meta",
-                "icon": "/react-cert.jpg",
-                "url": "https://example.com/cert/react"
-            },
-            {
-                "name": "Machine Learning Specialization",
-                "issuer": "Stanford Online",
-                "icon": "/ml-cert.jpg",
-                "url": "https://coursera.org/verify/ml-specialization"
-            }
-        ]
+        "description": [],
+        "certifications": []
     },
     "testimonials": {
         "index": 8,
-        "enabled": true,
+        "enabled": false,
         "title": "Client Testimonials",
         "highlight": "Testimonials",
-        "items": [
-            {
-                "receivedFrom": "Sarah Johnson",
-                "designation": "CTO at TechCorp",
-                "linkedinUserName": "sarah-johnson-cto",
-                "message": "Akshay delivered exceptional work on our enterprise platform. His technical expertise and attention to detail resulted in a 40% performance improvement. Highly recommended!"
-            },
-            {
-                "receivedFrom": "Mike Chen",
-                "designation": "Product Manager at StartupX",
-                "linkedinUserName": "mike-chen-pm",
-                "message": "Working with Akshay was a game-changer for our product. He not only built robust features but also mentored our team. His code quality is outstanding."
-            },
-            {
-                "receivedFrom": "Emma Davis",
-                "designation": "CEO at InnovateLabs",
-                "linkedinUserName": "emma-davis-ceo",
-                "message": "Akshay transformed our legacy system into a modern, scalable platform. His architectural decisions saved us thousands in infrastructure costs."
-            },
-            {
-                "receivedFrom": "David Wilson",
-                "designation": "Lead Developer at CloudSystems",
-                "linkedinUserName": "david-wilson-dev",
-                "message": "One of the most skilled developers I've worked with. Akshay's ability to solve complex problems is exceptional. A true asset to any team."
-            }
-        ]
+        "items": []
     },
     "contact": {
         "index": 190,
@@ -468,8 +184,8 @@
         "title": "Get In Touch",
         "highlight": "Contact",
         "email": "",
-        "phone": "+1 (555) 123-4567",
-        "location": "San Francisco, California, USA",
+        "phone": "",
+        "location": "",
         "socialLinks": [
             {
                 "name": "GitHub",
@@ -480,9 +196,9 @@
     },
     "contactForm": {
         "emailJsConfig": {
-            "serviceId": "service_abc123",
-            "templateId": "template_xyz789",
-            "publicKey": "user_public_key_here"
+            "serviceId": "",
+            "templateId": "",
+            "publicKey": ""
         },
         "formFields": {
             "name": {
@@ -530,26 +246,26 @@
         "text": "© {year} Akshay C S. All rights reserved."
     },
     "tracking": {
-        "enabled": true,
+        "enabled": false,
         "googleAnalytics": {
-            "enabled": true,
-            "googleTag": "GA-123456789"
+            "enabled": false,
+            "googleTag": ""
         },
         "googleForm": {
-            "enabled": true,
-            "actionUrl": "https://docs.google.com/forms/d/e/your-form-id/formResponse",
+            "enabled": false,
+            "actionUrl": "",
             "fields": {
-                "timestamp": "entry.1234567890",
-                "eventType": "entry.0987654321",
-                "ipAddress": "entry.1122334455",
-                "userAgent": "entry.5566778899",
-                "country": "entry.6677889900",
-                "additionalData": "entry.7788990011"
+                "timestamp": "",
+                "eventType": "",
+                "ipAddress": "",
+                "userAgent": "",
+                "country": "",
+                "additionalData": ""
             }
         },
         "ipServices": {
-            "ipLookup": "https://api.ipify.org?format=json",
-            "geoLookup": "https://ipapi.co/{ip}/json/"
+            "ipLookup": "",
+            "geoLookup": ""
         },
         "sourceDetection": {
             "ignoreParam": "ref",
@@ -564,97 +280,5 @@
             "defaultSource": "direct"
         }
     },
-    "customSections": [
-        {
-            "index": 11,
-            "enabled": true,
-            "id": "currently-learning",
-            "title": "Currently Learning",
-            "description": "Technologies and concepts I'm currently exploring",
-            "type": "info",
-            "content": {
-                "list": [
-                    "Web3 & Blockchain Development",
-                    "Rust Programming Language",
-                    "Edge Computing",
-                    "Quantum Computing Basics"
-                ]
-            }
-        },
-        {
-            "index": 12,
-            "enabled": true,
-            "id": "open-source",
-            "title": "Open Source Contributions",
-            "description": "Projects I contribute to regularly",
-            "type": "links",
-            "content": {
-                "links": [
-                    {
-                        "label": "React Core",
-                        "url": "https://github.com/facebook/react",
-                        "description": "Contributor to React library"
-                    },
-                    {
-                        "label": "VS Code",
-                        "url": "https://github.com/microsoft/vscode",
-                        "description": "Extension development and bug fixes"
-                    },
-                    {
-                        "label": "TensorFlow.js",
-                        "url": "https://github.com/tensorflow/tfjs",
-                        "description": "ML in browser contributions"
-                    }
-                ]
-            }
-        },
-        {
-            "index": 13,
-            "enabled": true,
-            "id": "tech-stack",
-            "title": "Favorite Tech Stack",
-            "description": "My go-to technologies for different project types",
-            "type": "info",
-            "content": {
-                "list": [
-                    "Frontend: React + TypeScript + Tailwind",
-                    "Backend: Node.js + Express + PostgreSQL",
-                    "Mobile: React Native + Expo",
-                    "Cloud: AWS (EC2, S3, Lambda, RDS)"
-                ]
-            }
-        },
-        {
-            "index": 14,
-            "enabled": true,
-            "id": "newsletter",
-            "title": "Tech Insights Newsletter",
-            "eyebrow": "Weekly updates",
-            "description": "Get the latest on web development, AI trends, and career tips delivered to your inbox every Friday.",
-            "type": "newsletter",
-            "content": {
-                "newsletter": {
-                    "placeholder": "you@example.com",
-                    "ctaLabel": "Subscribe Now",
-                    "ctaUrl": "",
-                    "note": "No spam, unsubscribe anytime.",
-                    "pitch": "Join 5,000+ developers getting actionable insights every week.",
-                    "stats": [
-                        {
-                            "label": "Subscribers",
-                            "value": "5K+"
-                        },
-                        {
-                            "label": "Open Rate",
-                            "value": "68%"
-                        },
-                        {
-                            "label": "Years",
-                            "value": "2+"
-                        }
-                    ]
-                }
-            }
-        }
-    ]
+    "customSections": []
 }

@@ -11,6 +11,10 @@ interface ContactSectionProps {
 export default function ContactSection({ contact, contactForm }: ContactSectionProps) {
   if (!contact.enabled) return null;
 
+  const showEmail = Boolean(contact.email?.trim());
+  const showLocation = Boolean(contact.location?.trim());
+  const showForm = Boolean(contactForm.emailJsConfig?.serviceId?.trim());
+
   return (
     <section id="contact" className="py-12">
       <motion.h2
@@ -24,6 +28,7 @@ export default function ContactSection({ contact, contactForm }: ContactSectionP
         <span className="text-purple-400"> {contact.highlight}</span>
       </motion.h2>
       <div className="flex flex-col md:flex-row gap-10">
+        {showForm && (
         <motion.div
           className="flex-1"
           initial={{ opacity: 0, x: -20 }}
@@ -33,6 +38,7 @@ export default function ContactSection({ contact, contactForm }: ContactSectionP
         >
           <ContactForm {...contactForm}/>
         </motion.div>
+        )}
         <motion.div
           className="flex-1 space-y-5"
           initial={{ opacity: 0, x: 20 }}
@@ -40,14 +46,18 @@ export default function ContactSection({ contact, contactForm }: ContactSectionP
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
+          {showEmail && (
           <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
             <h3 className="text-sm md:text-base font-semibold mb-2 text-purple-400">Email</h3>
             <p className="text-sm text-gray-300">{contact.email}</p>
           </div>
+          )}
+          {showLocation && (
           <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
             <h3 className="text-sm md:text-base font-semibold mb-2 text-purple-400">Location</h3>
             <p className="text-sm text-gray-300">{contact.location}</p>
           </div>
+          )}
           <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
             <h3 className="text-sm md:text-base font-semibold mb-2 text-purple-400">Social</h3>
             <div className="flex gap-4 mt-4">
