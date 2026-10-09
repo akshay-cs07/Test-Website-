@@ -39,11 +39,8 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Use local data.json in development, otherwise use the configured URL
-        const isDevelopment = process.env.NODE_ENV === 'development';
-        const url = isDevelopment 
-          ? '/archived/data.json' 
-          : process.env.NEXT_PUBLIC_PORTFOLIO_DATA_URL;
+        const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+        const url = process.env.NEXT_PUBLIC_PORTFOLIO_DATA_URL ?? `${basePath}/archived/data.json`;
         
         const response = await fetch(url!);
         if (!response.ok) throw new Error('Failed to fetch data');
